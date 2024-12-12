@@ -12,6 +12,7 @@ public class UIManager : MonoBehaviour
 
     void Start()
     {
+        Debug.Log("Running start method");
         uploadButton.onClick.AddListener(UploadFloorplan);
         convertButton.onClick.AddListener(ConvertFloorplanTo3D);
     }
@@ -38,6 +39,12 @@ public class UIManager : MonoBehaviour
 
     void ConvertFloorplanTo3D()
     {
+        if(blenderIntegration == null)
+        {
+        Debug.LogError("BlenderIntegration is not assigned");
+        return;
+        }
+
         if (!string.IsNullOrEmpty(uploadedImagePath))
         {
             blenderIntegration.ConvertTo3D(uploadedImagePath);

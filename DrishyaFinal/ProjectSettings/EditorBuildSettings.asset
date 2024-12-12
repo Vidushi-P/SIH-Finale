@@ -8,4 +8,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/LargeOfficeScene.unity
+    guid: 0e7a9c780304929439ae4ff265d4d669
+  - enabled: 1
+    path: Assets/Scenes/API.unity
+    guid: fc44d2881e062084290f626eed69cd22
+  - enabled: 1
+    path: Assets/Scenes/ClinicScene.unity
+    guid: cb884febff0ce33419b4f4da17c98ae0
   m_configObjects: {}

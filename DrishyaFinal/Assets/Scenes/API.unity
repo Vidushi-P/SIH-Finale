@@ -477,7 +477,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1093040301}
   - component: {fileID: 1093040300}
-  - component: {fileID: 1093040299}
+  - component: {fileID: 1093040302}
   m_Layer: 0
   m_Name: UIManager Object
   m_TagString: Untagged
@@ -485,21 +485,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1093040299
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1093040298}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb1c27f4c6d76da4fb7247378cb1ca8b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  blenderExecutablePath: C:\Path\To\blender.exe
-  pythonScriptPath: C:\Path\To\your\floorplanToBlender3d.py
-  outputModelPath: C:\Path\To\output\model.fbx
 --- !u!114 &1093040300
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -514,7 +499,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   uploadButton: {fileID: 420597399}
   convertButton: {fileID: 464515655}
-  blenderIntegration: {fileID: 1093040299}
+  blenderIntegration: {fileID: 1093040302}
 --- !u!4 &1093040301
 Transform:
   m_ObjectHideFlags: 0
@@ -530,6 +515,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1093040302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1093040298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb1c27f4c6d76da4fb7247378cb1ca8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blenderExecutablePath: C:\Program Files\Blender Foundation\Blender 4.2\blender.exe
+  pythonScriptPath: '"C:\Users\RAMSHARAN\OneDrive\Desktop\DRISHYA\Testing\FloorplanToBlender3d"'
+  outputModelPath: C:\Users\RAMSHARAN\OneDrive\Desktop\DRISHYA\Testing\FloorplanToBlender3d\Testing
 --- !u!1 &1101028244
 GameObject:
   m_ObjectHideFlags: 0

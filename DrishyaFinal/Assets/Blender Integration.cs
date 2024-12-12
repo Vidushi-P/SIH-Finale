@@ -3,9 +3,9 @@ using UnityEngine;
 
 public class BlenderIntegration : MonoBehaviour
 {
-    public string blenderExecutablePath = @"C:\Path\To\blender.exe"; // Update this path
-    public string pythonScriptPath = @"C:\Path\To\your\floorplanToBlender3d.py"; // Update this path
-    public string outputModelPath = @"C:\Path\To\output\model.fbx"; // Update this path
+    public string blenderExecutablePath = @"C:\Program Files\Blender Foundation\Blender 4.2\blender.exe"; // Update this path
+    public string pythonScriptPath = @"C:\Users\RAMSHARAN\OneDrive\Desktop\DRISHYA\Testing\FloorplanToBlender3d\Blender\floorplan_to_3dObject_in_blender.py"; // Update this path
+    public string outputModelPath = @"C:\Users\RAMSHARAN\OneDrive\Desktop\DRISHYA\Testing\FloorplanToBlender3d\Testing"; // Update this path
 
     public void ConvertTo3D(string inputImagePath)
     {
